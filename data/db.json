@@ -1,37 +1,19 @@
 [{
     "Category_id": "baseLearn",
-    "category_CN": "学习资源",
+    "category_CN": "快链",
     "category_icon": "icon-xuexi",
     "category_item": "baseLearnItem",
     "item_children": [{
-        "child_name": "Hulkye's 前端笔记本",
+        "child_name": "XiaoMouz's Base",
         "img_src": "./img/Hulkye.png",
         "a_href": "https://hulkye.github.io/Docs/",
         "child_desc": "个人的前端学习笔记本,记录些许"
-      },
-      {
-        "child_name": "Mozilla 开发者网络",
-        "img_src": "./img/mozilla.jpg",
-        "a_href": "https://developer.mozilla.org/zh-CN/",
-        "child_desc": "MDN Web Docs 网站提供开放网络（Open Web）技术有关的信息，包括用于网站和渐进式网络应用的 HTML、CSS 和 API。"
-      },
-      {
-        "child_name": "freeCodeCamp中文社区",
-        "img_src": "./img/freecodecamp.png",
-        "a_href": "https://www.freecodecamp.cn/",
-        "child_desc": " 一个帮助你学习编程的开源社区,开启你的软件工程师生涯."
       },
       {
         "child_name": "学习CSS布局",
         "img_src": "./img/learnlayout.png",
         "a_href": "http://zh.learnlayout.com/",
         "child_desc": "本站教授的是现在广泛使用于网站布局领域的CSS基础。"
-      },
-      {
-        "child_name": "WEB开发基础 — 优设网",
-        "img_src": "./img/uisdc.png",
-        "a_href": "http://wf.uisdc.com/cn/",
-        "child_desc": "网站开发基础知识，最佳实践手册。是由谷歌发布的一个简单易懂的多设备网络开发指南。"
       },
       {
         "child_name": "菜鸟教程",
@@ -46,64 +28,10 @@
         "child_desc": "w3school 在线教程 , 全球最大的中文 Web 技术教程。"
       },
       {
-        "child_name": "百度前端技术学院",
-        "img_src": "./img/ifebaidu.png",
-        "a_href": "http://ife.baidu.com/",
-        "child_desc": "百度前端技术学院是一个为大学生创办的免费的前端技术实践、分享、交平台。"
-      },
-      {
         "child_name": "W3-Help",
         "img_src": "./img/w3help.png",
         "a_href": "http://www.w3help.org/zh-cn/kb",
         "child_desc": "系统的介绍某些知识点，帮助开发者正确理解该知识点的概念及与其他知识点的关联性，梳理知识体系。"
-      },
-      {
-        "child_name": "前端开发者手册",
-        "img_src": "./img/frontenddevhandbook.png",
-        "a_href": "https://dwqs.gitbooks.io/frontenddevhandbook/content/",
-        "child_desc": "这是任何人都可以用来学习前端的实践手册, 它概述并讨论了前端工程的实践。"
-      },
-      {
-        "child_name": "前端笔记本",
-        "img_src": "./img/frontend-notebook.png",
-        "a_href": "https://li-xinyang.gitbooks.io/frontend-notebook/content/?q=",
-        "child_desc": "《前端笔记本》涵盖了 Web 前端开发所需的全部基本知识以及所对应的学习路径。"
-      },
-      {
-        "child_name": "表严肃-不要水，讲干货",
-        "img_src": "./img/biaoyansu.png",
-        "a_href": "http://biaoyansu.com/",
-        "child_desc": "基础教程视频,B站良心up主,满满的干货."
-      },
-      {
-        "child_name": "scriptoj",
-        "img_src": "./img/scriptoj.png",
-        "a_href": "http://scriptoj.mangojuice.top/",
-        "child_desc": "国人开发的前端题库，可以用作评测系统，带有讨论区"
-      },
-      {
-        "child_name": "如何跟上前端开发的最新前沿",
-        "img_src": "./img/frontendrescue.png",
-        "a_href": "https://uptodate.frontendrescue.org/zh/",
-        "child_desc": "如何跟上前端开发的最新前沿 前端开发 - The Recipe"
-      },
-      {
-        "child_name": "HEAD",
-        "img_src": "./img/head.png",
-        "a_href": "https://github.com/joshbuchea/HEAD",
-        "child_desc": "最全的 head 列表，真心佩服这种偏执的整理能力"
-      },
-      {
-        "child_name": "前端开发仓库",
-        "img_src": "./img/ciaoca.png",
-        "a_href": "http://code.ciaoca.com/",
-        "child_desc": "Web前端开发仓库，收录常用的JavaScript及jQuery插件，并提供在线演示效果。"
-      },
-      {
-        "child_name": "learnGitBranching",
-        "img_src": "./img/learnGitBranching.png",
-        "a_href": "https://github.com/pcottle/learnGitBranching",
-        "child_desc": "learnGitBranching是一个git仿真沙盒，提供一系列的交互式学习指导/挑战，用来加快学习git提交树如何工作。learnGitBranching的主界面左边是模拟终端窗口，另外是图示区。图示区用图形表明了git代码库当前的提交记录、分支、HEAD指向等。 目前有法语、韩语、日语以及中文版本。"
       },
       {
         "child_name": "计算机书籍控",
@@ -112,28 +40,10 @@
         "child_desc": "Best Computer Books, 整理最全最经典的计算机书籍,提供PDF下载"
       },
       {
-        "child_name": "前端九部-入门者手册2019",
-        "img_src": "./img/fe9.png",
-        "a_href": "https://www.yuque.com/fe9/basic",
-        "child_desc": "九部成员合著的web前端开发零基础入门手册"
-      },
-      {
-        "child_name": "力扣-LeetCode",
-        "img_src": "./img/leetcode.png",
-        "a_href": "https://leetcode-cn.com/",
-        "child_desc": "码，码不停题. 全球极客挚爱的高质量技术成长平台，想要学习和提升专业能力从这里开始，充足技术干货等你来啃，轻松拿下 Dream Offer！"
-      },
-      {
         "child_name": "CODE",
         "img_src": "./img/code.png",
         "a_href": "https://studio.code.org/",
-        "child_desc": "适用于初级的免费游戏式编程教学"
-      },
-      {
-        "child_name": "技术胖",
-        "img_src": "./img/jspang.png",
-        "a_href": "https://jspang.com/",
-        "child_desc": "技术胖,该站有很多免费的前端学习视频"
+        "child_desc": "免费游戏式编程教学，边学边玩，寓教于乐"
       },
       {
         "child_name": "前端周刊",
