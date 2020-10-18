@@ -13,7 +13,7 @@
           |     `++'  |
           `   `-._   /
             \        (
-            /\ .      \. 
+            /\ .      \.
           / |` \     ,-\
           /  \| .)   /   \
         ( ,'|\    ,'     :
@@ -32,9 +32,9 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="msvalidate.01" content="B407C3D39581951D1D46DFD4CDE6ADC5" />
-  <title>Web前端导航 - FrontEndNav前端开发网址导航</title>
-  <meta name="keywords" content="前端导航,程序员导航,前端开发学习,前端网址大全,前端教程,web-hub,网址导航,FrontEndNav,webhub" />
-  <meta name="description" content="web前端导航是Hulkye推出的前端导航，收录了大量高质量前端相关站点，为广大用户提供学习网站、学习方向、学习途径、最新前端框架等内容。收录国内外前端网站。" />
+  <title>Mouz's Notebook</title>
+  <meta name="keywords" content="笔记本，学生，文件，直链" />
+  <meta name="description" content="收录了本人的学生笔记、课件、心得、工作环境等" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   <meta name="Author" content="Hulkye-YHR" />
   <meta name="Copyright" content="Hulkye-YHR" />
@@ -52,13 +52,13 @@
   <div class="container" id="container">
     <div class="left-bar">
       <div class="title">
-        <h1>FrontEndNav</h1>
+        <h1>小莫の笔记本</h1>
       </div>
       <!-- 分类导航菜单 -->
       <div class="nav">
         <div class="home active item">
           <a href="javascript:void(0);">
-            <i class="iconfont icon-icon_fabu"></i> 前端网站导航
+            <i class="iconfont icon-icon_fabu"></i> 目录
           </a>
           <i class="hairlines"></i>
         </div>
@@ -68,14 +68,13 @@
             <ul>
               <!-- 导航栏分类渲染 -->
               <script id="CategoryId" type="text/html">
-                {{each list value index}}
-                <li id="{{value.Category_id}}" class="{{index==0 ? 'active' : ''}}">
-                  <a data-id="{{value.Category_id}}">
-                    <i data-id="{{value.Category_id}}"
-                      class="iconfont {{value.category_icon}}"></i>{{value.category_CN}}
-                  </a>
-                </li>
-                {{/each}}
+              {{each list value index}}
+              <li id="{{value.Category_id}}" class="{{index==0 ? 'active' : ''}}">
+                <a data-id="{{value.Category_id}}">
+                  <i data-id="{{value.Category_id}}" class="iconfont {{value.category_icon}}"></i>{{value.category_CN}}
+                </a>
+              </li>
+              {{/each}}
               </script>
             </ul>
           </div>
@@ -84,7 +83,7 @@
 
       <!-- 我的github -->
       <div class="my-link item">
-        <a href="https://github.com/Hulkye" id="mygithub" target="_blank">
+        <a href="https://github.com/XiaoMouz" id="mygithub" target="_blank">
           <i class="iconfont icon-github1"></i>
         </a>
       </div>
@@ -111,7 +110,7 @@
         </div>
         <div class="own-right">
           <ul class="own-link">
-            <li><a href="https://github.com/Hulkye" target="_blank">GitHub</a></li>
+            <li><a href="https://github.com/XiaoMouz" target="_blank">My GitHub</a></li>
             <li><a href="javascript:;" id="aboutThis">关于本站</a></li>
           </ul>
         </div>
@@ -122,7 +121,7 @@
         <div class="search">
           <div class="search-box">
             <i class="iconfont icon-baidu" id="search-icon"></i>
-            <input type="text" id="txt" class="search-input" placeholder=" 输入关键字，按回车 / Enter 搜索" autocomplete="off">
+            <input type="text" id="txt" class="search-input" placeholder=" 输入关键字，按回车 / Enter 在互联网搜索" autocomplete="off">
             <i class="iconfont icon-shanchu1" id="search-clear" style="display: none;"></i>
           </div>
           <!-- 搜索热词 -->
@@ -132,7 +131,7 @@
           <!-- 搜索引擎 -->
           <div class="search-engine" style="display: none;">
             <div class="search-engine-head">
-              <strong class="search-engine-tit">选择您的默认搜索引擎：</strong>
+              <strong class="search-engine-tit">选择您的搜索引擎：</strong>
               <div class="search-engine-tool">搜索热词：<span id="hot-btn"></span></div>
             </div>
             <ul class="search-engine-list"></ul>
@@ -196,31 +195,31 @@
       <div id="mainContent">
         <!-- 分类选项卡模板 -->
         <script id="navItemId" type="text/html">
-          {{each list value index}}
-          <div class="itemCart" id="{{value.category_item}}">
-            <div class="sub-category">
-              <div>
-                <i class="iconfont {{value.category_icon}}"></i>
-                {{value.category_CN}}
-              </div>
-            </div>
+        {{each list value index}}
+        <div class="itemCart" id="{{value.category_item}}">
+          <div class="sub-category">
             <div>
-              {{each value.item_children value index}}
-              <a target="_blank" href="{{value.a_href}}">
-                <div class="item">
-                  <div class="logo">
-                    <img width="100%" class="loaded lazy" data-echo="{{value.img_src}}" src="./img/loading.gif">
-                    <span>{{value.child_name}}</span>
-                  </div>
-                  <div class="desc">
-                    {{value.child_desc}}
-                  </div>
-                </div>
-              </a>
-              {{/each}}
+              <i class="iconfont {{value.category_icon}}"></i>
+              {{value.category_CN}}
             </div>
           </div>
-          {{/each}}
+          <div>
+            {{each value.item_children value index}}
+            <a target="_blank" href="{{value.a_href}}">
+              <div class="item">
+                <div class="logo">
+                  <img width="100%" class="loaded lazy" data-echo="{{value.img_src}}" src="./img/loading.gif">
+                  <span>{{value.child_name}}</span>
+                </div>
+                <div class="desc">
+                  {{value.child_desc}}
+                </div>
+              </div>
+            </a>
+            {{/each}}
+          </div>
+        </div>
+        {{/each}}
         </script>
       </div>
 
@@ -229,8 +228,8 @@
         <p>Hello World - Hulkye</p>
         <div class="copyright">
           <div>
-            Copyright © 2018 - Present
-            <a href="javascript:void(0);"> Web前端导航 by hulkye </a>
+            Copyright © 2018 - 2021
+            <a href="http://mou.best"> 制作/改进/使用 by XiaoMouz </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0);"> 源码/模板 by hulkye </a>
           </div>
         </div>
       </div>
@@ -243,14 +242,7 @@
 
     <!-- cnzz站长统计 -->
     <div style="width: 0; height: 0; overflow: hidden;">
-      <script type="text/javascript" src="https://s5.cnzz.com/z_stat.php?id=1276421227&web_id=1276421227"></script>
-      <script type="text/javascript">
-        var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
-        document.write(unescape("%3Cspan id='cnzz_stat_icon_1276421227'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol +
-          "s5.cnzz.com/z_stat.php%3Fid%3D1276421227' type='text/javascript'%3E%3C/script%3E"));
-      </script>
     </div>
-  </div>
 
 </body>
 <script src="./js/jquery-1.12.4.min.js"></script>
